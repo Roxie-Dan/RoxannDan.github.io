@@ -12,6 +12,10 @@ h2 {font-family: Georgia;
 }
 table{display: block;
       border-spacing: 15px;
+      padding-left:100px;
+      float:left;
+      margin-left: 150px;
+      margin-top: 200px;
      
 }
 
@@ -23,24 +27,32 @@ table{display: block;
       }
       
 .achievements{
-              padding-left: 50px;
+              padding-left:50px;
               border-left: 1px solid black;
               padding-top: 10px;
+              
              }
-.expeience{ float: right;
+
     
-          }
-img {float: right;
-     width:200px;
-     height: 263px;
+          
+img {
      position: absolute;
      transform: rotate(-10deg);
-     border: solid 9px white;
+     border-color: grey;
+     border-width: 9px;
+     border-style: double;
+     width: 200px;
+     height: 263px;
+     right: 80px;
+     
 }
 
 #picture{position: absolute;
          top: 0;
-         right: 300px;
+         right: 0;
          transform: rotate(-10deg);
+         float: right;
+         
          
 }
+.ref{width: 900px;}
