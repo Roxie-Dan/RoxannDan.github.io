@@ -1,0 +1,46 @@
+
+style-one{ border: 0;
+    height: 4px;
+    background: #333;
+    }
+h2 {font-family: Georgia;
+    color: Black;
+   }
+.info{line-height: 0.2px;
+      font-size: 10px;
+      
+}
+table{display: block;
+      border-spacing: 15px;
+     
+}
+
+.title{
+        float: left;
+        border-right-color: #546464;
+        padding-right: 50px;
+        
+      }
+      
+.achievements{
+              padding-left: 50px;
+              border-left: 1px solid black;
+              padding-top: 10px;
+             }
+.expeience{ float: right;
+    
+          }
+img {float: right;
+     width:200px;
+     height: 263px;
+     position: absolute;
+     transform: rotate(-10deg);
+     border: solid 9px white;
+}
+
+#picture{position: absolute;
+         top: 0;
+         right: 300px;
+         transform: rotate(-10deg);
+         
+}
